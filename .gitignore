@@ -8,6 +8,5 @@ package-lock.json
 .nyc_output/
 coverage/
 .tmp*
-themes/
 public/
 db.json
