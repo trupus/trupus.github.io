@@ -24,7 +24,7 @@ But I ended up using [hexo](https://hexo.io/). Why? Mainly because I liked [this
 - A _main_ branch for deployment.
 - A _hexo_ branch for source.
 
-__Importatnt:__ please change the default branch in github settings form _main_ to _hexo_.
+__Important:__ please change the default branch in github settings form _main_ to _hexo_.
 
 ## Component installation
 
@@ -38,7 +38,7 @@ If you want a custom theme, the best way is to fork an existing one, or just wri
 
 `git submodule add git@github.com:probberechts/hexo-theme-cactus.git themes/cactus`
 
-And then the usuall
+And then the usual
 
 `git add . && git commit && git push`
 
