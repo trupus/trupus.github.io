@@ -14,7 +14,7 @@
 <meta property="og:description" content="What is this post about?I was looking for an easy way to document my research or practical experience, or even just my thoughts in form of a blog. Its primarily purpose would be to serve as a quick re">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-02-17T15:25:29.000Z">
-<meta property="article:modified_time" content="2021-02-20T22:27:31.075Z">
+<meta property="article:modified_time" content="2021-02-20T23:09:10.434Z">
 <meta property="article:author" content="Alexandr Melnic">
 <meta property="article:tag" content="alexandriada, tech, technology, blog">
 <meta name="twitter:card" content="summary">
@@ -156,11 +156,11 @@
 <li>A <em>main</em> branch for deployment.</li>
 <li>A <em>hexo</em> branch for source.</li>
 </ul>
-<p><strong>Importatnt:</strong> please change the default branch in github settings form <em>main</em> to <em>hexo</em>.</p>
+<p><strong>Important:</strong> please change the default branch in github settings form <em>main</em> to <em>hexo</em>.</p>
 <h2 id="Component-installation"><a href="#Component-installation" class="headerlink" title="Component installation"></a>Component installation</h2><p>I assume you have already git installed. Then get node, and then hexo.</p>
 <h2 id="Optional-Theme"><a href="#Optional-Theme" class="headerlink" title="(Optional) Theme"></a>(Optional) Theme</h2><p>If you want a custom theme, the best way is to fork an existing one, or just write one yourself. Either way you’ll want then to add it as a submodule to your repo (in the <em>hexo</em> branch).</p>
 <h3 id="Adding-a-submodule"><a href="#Adding-a-submodule" class="headerlink" title="Adding a submodule"></a>Adding a submodule</h3><p><code>git submodule add git@github.com:probberechts/hexo-theme-cactus.git themes/cactus</code></p>
-<p>And then the usuall</p>
+<p>And then the usual</p>
 <p><code>git add . &amp;&amp; git commit &amp;&amp; git push</code></p>
 <h1 id="Action"><a href="#Action" class="headerlink" title="Action"></a>Action</h1><p>So you’ve installed hexo and a theme, configured it by modifying <code>_config.yml</code>, and now you are ready to write posts. Congratulations you are a blogger.</p>
 <h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><p>There is this functionality <code>hexo deploy</code> already built in hexo. But I thought to myself, if I am going to push to my repo on the <em>hexo</em> branch anyways, it would be better if the deployment happens automatically. Therefore I use github workflows.</p>
