@@ -48,7 +48,7 @@ So you've installed hexo and a theme, configured it by modifying `_config.yml`, 
 
 ## Deployment
 
-There is this functionality `hexo deploy` already built in hexo. But I thought to myself, if I am going to push to my repo one the _hexo_ branch anyways, it would be better if the deployment happens automatically. Therefore I use github workflows.
+There is this functionality `hexo deploy` already built in hexo. But I thought to myself, if I am going to push to my repo on the _hexo_ branch anyways, it would be better if the deployment happens automatically. Therefore I use github workflows.
 
 In your root directory create this file:
 
