@@ -8,6 +8,4 @@ tags: running
 |:----------------:|------|------|------|------|------|
 |>15               |      |      |t-shirt|shorts|thin socks|
 |15-5              |headband over ears||t-shirt, jacket|shorts|thick socks|
-|<5                |headband over ears|thermal shirt, jacket, gloves|pants, thick socks|
-
-
+|<5                |headband over ears||thermal shirt, jacket, gloves|pants, thick socks|
